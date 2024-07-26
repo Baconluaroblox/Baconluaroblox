@@ -1,0 +1,18 @@
+-- Jump Power and Speed Power
+local player = game.Players.LocalPlayer.Character.Humanoid
+
+-- Initialize values
+local jumpHeight = 60
+local walkSpeed = 95
+
+-- Loop
+while true do
+    -- Set jump power
+    player.JumpHeight = jumpHeight
+    
+    -- Set speed power
+    player.WalkSpeed = walkSpeed
+    
+    -- Wait for 1 second before repeating
+    wait(0.1)
+end
